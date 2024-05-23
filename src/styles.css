@@ -452,9 +452,7 @@
       flex-wrap: wrap;
     }
     
-    header nav li {
-      margin-right: 20px;
-    }
+   
     
     header nav a {
       color: var(--secondary-color);
