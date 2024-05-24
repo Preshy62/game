@@ -85,9 +85,8 @@
     </style>
 </head>
 
-
 <body>
-    <form id="contact-form  " class="wrapper">
+    <form id="contact-form" class="wrapper">
         <div class="form-group " >
           <label for="name">Name</label>
           <input type="text" class="form-control" id="name" placeholder="Enter your name">
@@ -98,7 +97,7 @@
         </div><br>
         <div class="form-group">
             <label for="email">TEL</label>
-            <input type="email" class="form-control" id="number" placeholder="Enter your  phone no">
+            <input type="tel" class="form-control" id="number" placeholder="Enter your  phone no">
           </div><br>
         <div class="form-group">
           <label for="message">Message</label>
@@ -106,25 +105,26 @@
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
-      
       <script>
-        const form = document.getElementById('contact-form');
-  
-  form.addEventListener('submit', (event) => {
-    event.preventDefault();
-  
-    // Get form field values
-    const name = document.getElementById('name').value;
-    const email = document.getElementById('email').value;
-    const number = document.getElementById('number').value;
-    const message = document.getElementById('message').value;
-  
-    // Display alert
-    alert(`Hello ${name}, an agronomist will chart with you shortly.`);
-  
-    // Optionally, you can also reset the form fields after displaying the alert
-    form.reset();
-  });
-  </script>
+
+        
+      const form = document.getElementById('contact-form');
+
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+
+  // Get form field values
+  const name = document.getElementById('name').value;
+  const email = document.getElementById('email').value;
+  const number = document.getElementById('number').value;
+  const message = document.getElementById('message').value;
+
+  // Display alert
+  alert(`Hello ${name}, an agronomist will chart with you shortly.`);
+
+  // Optionally, you can also reset the form fields after displaying the alert
+  form.reset();
+});
+</script>
 </body>
 </html>
