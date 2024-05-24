@@ -108,15 +108,23 @@
       </form>
       
       <script>
-        // Add some JavaScript code here to handle form submission
-        // Get the user's name from the input field
-var name = document.getElementById("name").value;
-
-// Create the message to display in the alert
-var message = `"Hello " ${name } ", an agronomist will chat with you on WhatsApp.`;
-
-// Display the alert
-alert(message);
-      </script>
+        const form = document.getElementById('contact-form');
+  
+  form.addEventListener('submit', (event) => {
+    event.preventDefault();
+  
+    // Get form field values
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const number = document.getElementById('number').value;
+    const message = document.getElementById('message').value;
+  
+    // Display alert
+    alert(`Hello ${name}, an agronomist will chart with you shortly.`);
+  
+    // Optionally, you can also reset the form fields after displaying the alert
+    form.reset();
+  });
+  </script>
 </body>
 </html>
