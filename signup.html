@@ -15,7 +15,7 @@
     <div class="form">
 
         <h1>Sign Up</h1>
-        <form id="signup" action="/dashboard.html" method="post">
+        <form id="farmerssignup" action="/dashboard.html" method="post">
         <label class="name" for="Password">Password</label><br>
         <input type="text" placeholder="**********" required><br>
 
@@ -52,7 +52,12 @@
 
 
     </div>
-
+    <script>
+        document.getElementById('farmerssignup').addEventListener('submit', function(event) {
+            event.preventDefault();
+            window.location.href = '/dashboard.html';
+        });
+    </script>
 
 </body>
 </htm
