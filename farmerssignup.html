@@ -4,9 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/dbb856c26c.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://raw.githubusercontent.com/preshy62/game/main/farmerssignup.css">
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/preshy62/game/master/farmerssignup.css">
     <title>sign up</title>
-    <link rel="stylesheet" href="farmerssignup.css">
 </head>
 <body>
     <div class="container">
@@ -15,7 +14,7 @@
 
             <h1>Sign Up</h1>
 
-            <form id="farmerssignup" action="/dashboard.html" method="get">
+            <form id="farmerssignup">
 
                 <label class="name" for="Password">Full Name</label><br>
                 <input type="text" class="form-control" placeholder="jonny ben" required><br>
@@ -42,7 +41,7 @@
                 <label for="Age">Age</label><br>
                 <input type="text" class="form-control" name="" id="age"><br><br>
 
-               <a href="/dashboard.html"><button type="submit">complete</button><br><br></a> 
+                <button type="submit">complete</button><br><br>
 
             </form>
 
@@ -67,6 +66,8 @@
             event.preventDefault();
             // Add your submission logic here
             console.log('Form submitted!');
+            // You can redirect to dashboard.html here
+            window.location.href = '/dashboard.html';
         });
     </script>
 
