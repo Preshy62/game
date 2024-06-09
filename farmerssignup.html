@@ -10,58 +10,54 @@
 <body>
     <div class="container">
 
-    
+        <div class="form">
 
-    <div class="form">
+            <h1>Sign Up</h1>
 
-        <h1>Sign Up</h1>
+            <form id="farmerssignup" action="/dashboard.html" method="post">
 
-        <form id="farmerssignup" action="/dashboard.html" method="get">
+                <label class="name" for="Password">Full Name</label><br>
+                <input type="text" class="form-control" placeholder="jonny light" required><br>
 
-        <label class="name" for="Password">Full Name</label><br>
-        <input type="text" placeholder="jonny light" required><br>
+                <label class="name" for="Password">Password</label><br>
+                <input type="text" class="form-control"   placeholder="**********" required><br>
 
-        <label class="name" for="Password">Password</label><br>
-        <input type="text"    placeholder="**********" required><br>
+                <label for="email">Email</label><br>
+                <input type="email" name="" class="form-control" id="" placeholder="Precious....@yahoo.com"><br>
+                
+                
+                <label class="name" for="Password">Contact Address</label><br>
+                <input type="text" class="form-control" placeholder="no2******" required><br>
 
-        <label for="email">Email</label><br>
-        <input type="email" name=""  id="" placeholder="Precious....@yahoo.com"><br>
-        
-        
-        <label class="name" for="Password">Contact Address</label><br>
-        <input type="text"  placeholder="no2******" required><br>
+                <label class="name" for="Password">Business Location</label><br>
+                <input type="text" class="form-control" placeholder="**********" required><br>
 
-        <label class="name" for="Password">Business Location</label><br>
-        <input type="text" placeholder="**********" required><br>
+                <label for="tel">Phone Number</label><br>
+                <input type="tel" class="form-control" name="" id="" placeholder="+01-08282972"><br><br>
 
-        <label for="tel">Phone Number</label><br>
-        <input type="tel" class="form-control" name="" id="" placeholder="+01-08282972"><br><br>
+                <label for="Gender">Gender</label><br>
+                <input type="text" class="form-control"  name="" id="gender" value=""><br>
 
-        <label for="Gender">Gender</label><br>
-        <input type="text"  name="" id="gender" value=""><br>
+                <label for="Age">Age</label><br>
+                <input type="text" class="form-control" name="" id="age"><br><br>
 
-        <label for="Age">Age</label><br>
-        <input type="text"  name="" id="age"><br><br>
+                <button type="submit">complete</button><br><br>
 
-        <a href="/dashboard.html"><button type="submit">complete</button><br><br></a>
+            </form>
 
-    </form>
+            <br>
 
-    <br>
+            <p class="line">Or sign up with</p><br><br>
 
-    <p class="line">Or sign up with</p><br><br>
+            <div class="socials">
+                <a href="http://"><span><i class="fa-brands fa-google"></i></span></a>
+                <a href="http://"><span><i class="fa-brands fa-facebook"></i></span></a>
+                <a href="http://"><span><i class="fa-brands fa-x-twitter"></i></span></a><br><br>
+            </div>
 
-    <div class="socials">
-        <a href="http://"><span><i class="fa-brands fa-google"></i></span></a>
-        <a href="http://"><span><i class="fa-brands fa-facebook"></i></span></a>
-        <a href="http://"><span><i class="fa-brands fa-x-twitter"></i></span></a><br><br>
-    </div>
+            <h2>Already have an account? <a href="/login.html">Sign-in</a></h2><br>
 
-    <h2>Already have an account? <a href="/login.html">Sign-in</a></h2><br>
-
-   </div>
-
-
+        </div>
 
     </div>
 
@@ -71,7 +67,6 @@
             window.location.href = '/dashboard.html';
         });
     </script>
-
 
 </body>
 </html>
