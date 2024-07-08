@@ -228,7 +228,7 @@ main section p {
 
 /* Choose Section */
 .choose {
-  
+  background-color: #13b60d;
   padding: 90px 20px 190px 20px;
   text-align: center;
 }
