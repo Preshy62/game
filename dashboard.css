@@ -534,7 +534,7 @@
       /* CSS for the Head ends here */
       
       .custom-button {
-        background: linear-gradient(45deg, #ff6b6b, #f06595);
+        background: green;
         border: none;
         border-radius: 25px;
         color: white;
