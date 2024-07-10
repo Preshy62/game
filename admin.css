@@ -304,6 +304,8 @@ body {
 .chart img {
     width: 48%;
 }
+/*... (rest of the CSS code remains the same) */
+
 @media (max-width: 768px) {
     body {
         display: flex;
@@ -311,57 +313,55 @@ body {
         margin: 0; /* Remove default margin */
     }
     
-    .menu-bar {
+   .menu-bar {
         position: fixed;
         top: 0;
         left: 0;
         background-color: green;
-        width: 70px; /* Adjust sidebar width */
+        width: 100%; /* Take full width */
+        height: 70px; /* Adjust height as needed */
         padding: 20px; /* Adjust padding as needed */
         z-index: 1000; /* Ensure sidebar stays on top of other content */
         transition: all 0.5s;
     }
     
-    .menu-bar:hover {
-        width: 250px; /* Adjusted width on hover */
-    }
-    
-    .menu-bar ul {
+   .menu-bar ul {
         list-style: none;
         padding: 0;
         margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     
-    .menu-bar ul li {
+   .menu-bar ul li {
         padding: 15px 10px;
         transition: background 0.3s;
-        overflow: hidden; /* Ensure text overflow is hidden */
-        white-space: nowrap; /* Prevent text from wrapping */
-        width: 20px; /* Initially hide the text */
-        transition: width 0.3s; /* Smooth transition when sidebar expands */
+        width: 100%; /* Take full width */
     }
     
-    .menu-bar:hover ul li {
-        width: auto; /* Show text when sidebar is expanded */
+   .menu-bar ul li a {
+        display: flex;
+        align-items: center;
+        gap: 10px;
     }
     
-    .menu-bar ul li  a .icon {
-        display: none; /* Hide icons within sidebar items */
+   .menu-bar ul li a.icon {
+        display: inline-block; /* Show icons within sidebar items */
     }
     
-    .content-main {
-        margin-top: 10px; /* Adjust for the height of the sidebar */
+   .content-main {
+        margin-top: 70px; /* Adjust for the height of the sidebar */
         padding: 20px;
     }
     
-    .card-student {
+   .card-student {
         display: flex;
         flex-direction: column;
         width: 40%; /* Ensure student cards take 60% width */
         margin-bottom: 20px; /* Optional: Add margin between cards */
     }
 }
-
 
 
 
