@@ -304,7 +304,6 @@ body {
 .chart img {
     width: 48%;
 }
-/*... (rest of the CSS code remains the same) */
 
 /*... (rest of the CSS code remains the same) */
 
@@ -314,8 +313,8 @@ body {
         flex-direction: column; /* Stack content in a column */
         margin: 0; /* Remove default margin */
     }
-    
-  .menu-bar {
+
+    .menu-bar {
         position: fixed;
         top: 0;
         left: 0;
@@ -326,8 +325,8 @@ body {
         z-index: 1000; /* Ensure sidebar stays on top of other content */
         transition: all 0.5s;
     }
-    
-  .menu-bar ul {
+
+    .menu-bar ul {
         list-style: none;
         padding: 0;
         margin: 0;
@@ -335,40 +334,44 @@ body {
         flex-direction: column;
         align-items: center;
     }
-    
-  .menu-bar ul li {
+
+    .menu-bar ul li {
         padding: 15px 10px;
         transition: background 0.3s;
         width: 100%; /* Take full width */
     }
-    
-  .menu-bar ul li a {
+
+    .menu-bar ul li a {
         display: flex;
         align-items: center;
         gap: 10px;
     }
-    
-  .menu-bar ul li a.icon {
+
+    .menu-bar ul li a.icon {
         display: inline-block; /* Show icons within sidebar items */
     }
-    
-  .content-main {
-        margin-top: 70px; /* Adjust for the height of the sidebar */
+
+    .header-main {
+        position: fixed;
+        top: 70px; /* Adjust for the height of the menu-bar */
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+
+    .content-main {
+        margin-top: 150px; /* Adjust for the height of the header */
         padding: 20px;
     }
-    
-  .card-student {
+
+    .card-student {
         display: flex;
         flex-direction: column;
-        width: 40%; /* Ensure student cards take 60% width */
+        width: 40%; /* Ensure student cards take 40% width */
         margin-bottom: 20px; /* Optional: Add margin between cards */
     }
-    
-  .menu-bar ul li {
+
+    .menu-bar ul li {
         white-space: normal; /* Allow text to wrap */
     }
 }
-
-
-
-
