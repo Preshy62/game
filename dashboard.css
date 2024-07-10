@@ -320,19 +320,19 @@
     
     .card-flex >.card-student:nth-child(1){
     
-    background-color: rgb(131, 114, 119);
+    background-color: aliceblue;
     
     }
     
     .card-flex >.card-student:nth-child(2){
     
-        background-color: rgb(173, 190, 143);
+        background-color: aliceblue;
         
         }
     
         .card-flex >.card-student:nth-child(3){
     
-            background-color: rgb(150, 106, 80);
+            background-color: aliceblue;
             
             }
     
