@@ -533,7 +533,32 @@
       
       /* CSS for the Head ends here */
       
-      
+      .custom-button {
+        background: linear-gradient(45deg, #ff6b6b, #f06595);
+        border: none;
+        border-radius: 25px;
+        color: white;
+        cursor: pointer;
+        font-size: 16px;
+        padding: 15px 30px;
+        text-align: center;
+        text-decoration: none;
+        transition: background 0.3s ease, transform 0.3s ease;
+    }
+
+    .custom-button:hover {
+        background: linear-gradient(45deg, #f06595, #ff6b6b);
+        transform: scale(1.05);
+    }
+
+    .custom-button:active {
+        background: linear-gradient(45deg, #e44e6e, #d95683);
+        transform: scale(0.95);
+    }
+
+
+
+
       .container-l{
       
         margin-top: 20px;
