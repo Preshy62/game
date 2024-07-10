@@ -534,7 +534,7 @@
       /* CSS for the Head ends here */
       
       .custom-button {
-        background: green;
+        background-color: green;
         border: none;
         border-radius: 25px;
         color: white;
