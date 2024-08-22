@@ -4,18 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>EloAgro Marketplace</title>
-  <link rel="stylesheet" href="src/styles.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  
+  <!-- Font Awesome for icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-
+  
+  <link rel="stylesheet" href="./src/styles.css">
 </head>
 <body>
 
   <div class="elohagro-header">
     <div class="elohagro-logo">
-      <a href="/"><img src="./images/IMG-20240512-WA0002_1.jpg" alt="Elohagro Logo"></a>
-      <h5>WELCOME TO ELOHOAGRO MARKETPLACE</h5>
+      <a href="/"><img src="./images/img/IMG-20240821-WA0039-removebg-preview.png" alt="Elohagro Logo"></a>
+    
     </div>
     <div class="elohagro-search">
       <input type="text" placeholder="Search...">
@@ -24,15 +25,7 @@
     <nav class="elohagro-nav">
       <ul>
         <li class="nav-item">
-          <a class="nav-link" href="#" data-toggle="modal" data-target="#signupModal" style= "font-size: 12px;
-          line-height: 15px;
-          background: #080808;
-          border: #0d0e0d solid 1px;
-          padding: 14px ;
-          display: inline-block;
-          color: white;
-        
-          border-radius: 2px;">Sign Up</a>
+         
         </li>
         
         <li><a href="./contact.html">CONTACT US</a></li>
@@ -40,39 +33,7 @@
       </ul>
 
 
-<!-- Sign Up Modal -->
-<div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="signupModalLabel" >Sign Up</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <form>
-          <div class="form-group">
-            <label for="email">Email address</label>
-            <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-          </div>
-          <div class="form-group">
-            <label for="password">Password</label>
-            <input type="password" class="form-control" id="password">
-          </div>
-          <div class="form-group">
-            <label for="confirmPassword">Confirm Password</label>
-            <input type="password" class="form-control" id="confirmPassword">
-          </div>
-          <div class="form-check">
-            <input type="checkbox" class="form-check-input" id="termsCheckbox">
-            <label class="form-check-label" for="termsCheckbox">I agree to the terms and conditions</label>
-          </div>
-          
-      <button type="button" class=" btn btn-primary">SIGN UP</button>
-        </form>
-      </div>
+
 
 
 <!--  -->
@@ -126,7 +87,7 @@
                   border: #0e5e04 solid 1px;
                   padding: 10px 40px;
                   display: inline-block;
-                  
+                  margin-right: 20px;
                 
                   border-radius: 8px;" >Admin</a>
                 </li>
@@ -145,31 +106,7 @@
         </nav>
 
         <!-- login Modal -->
-  <div class="modal fade" id="loginModal" tabindex="-2" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="loginModalLabel">login </h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <form>
-            <div class="form-group">
-              <label for="email">Email address</label>
-              <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
-              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-            </div>
-            <div class="form-group">
-              <label for="password">Password</label>
-              <input type="password" class="form-control" id="password">
-            </div>
-          
-           
-      <button type="button" class=" btn btn-primary">LOGIN</button>
-          </form>
-        </div>
+ 
 
 
 <!--  -->
@@ -196,55 +133,70 @@
     </video>
     <!-- Your content goes here -->
 
-    <br><br><br><br>
-    <div class="slie">
-      <div id="carouselExample" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExample" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExample" data-slide-to="1"></li>
-          <li data-target="#carouselExample" data-slide-to="2"></li>
-          <li data-target="#carouselExample" data-slide-to="3"></li>
-        </ol>
-        <div class="carousel-inner">
+   
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner">
           <div class="carousel-item active">
-            <h1 style="color: rgb(221, 245, 6); font-size: 50px;">Make Farming Easier With EloAgro </h1>
-            <p style="color: rgb(14, 105, 5); font-size: 30px;"> A Farming Company with the aim of <br> helping Farmers increase yileds, reduce cost, and <br> promote sustainable farming practice</p>
+              <img src="./images/img/IMG-20240821-WA0020.jpg" class="d-block w-100 carousel-image" alt="Slide 1">
+              <div class="carousel-caption d-md-block">
+                  <h5>Slide 1 Title</h5>
+                  <h1 style="color: rgb(221, 245, 6); font-size: 50px;">Make Farming Easier With EloAgro</h1>
+                  <p style="color: rgb(14, 105, 5); font-size: 30px;">A Farming Company with the aim of helping Farmers increase yields, reduce cost, and promote sustainable farming practices.</p>
+                  <a href="./start.html"><button type="button" class="jam btn btn-primary">Get Started</button></a> 
+                </div>
           </div>
           <div class="carousel-item">
-            <h1 style="color: green; font-size: 50px;">Elohagro Farmers Market </h1>
-            <p style="color: rgb(73, 19, 54); font-size: 30px;"> 
-    
-              <em>Experience the vibrant atmosphere of Elohagro Farmers Market - a hub for fresh, locally-sourced produce and artisanal goods. </em>
+              <img src="./images/img/IMG-20240821-WA0031.jpg" class="d-block w-100 carousel-image" alt="Slide 2">
+              <div class="carousel-caption d-md-block">
+                  <h5>Slide 2 Title</h5>
+                  <h1 style="color: rgb(221, 245, 6); font-size: 50px;">Innovative Solutions for Modern Farming</h1>
+                  <p style="color: rgb(14, 105, 5); font-size: 30px;">We provide advanced tools and strategies to optimize your farming practices.</p>
+                  <a href="./start.html"><button type="button" class="jam btn btn-primary">Get Started</button></a> 
+                </div>
+          </div>
+          <div class="carousel-item">
+              <img src="./images/img/IMG-20240821-WA0022.jpg" class="d-block w-100 carousel-image" alt="Slide 3">
+              <div class="carousel-caption d-md-block">
+                  <h5>Slide 3 Title</h5>
+                  <h1 style="color: rgb(221, 245, 6); font-size: 50px;">Sustainable Agriculture for the Future</h1>
+                  <p style="color: rgb(14, 105, 5); font-size: 30px;">Join us in promoting practices that protect our environment and ensure food security.</p>
+                  <a href="./start.html"><button type="button" class="jam btn btn-primary">Get Started</button></a> 
+                </div>
+          </div>
+          <div class="carousel-item">
+              <img src="./images/img/IMG-20240821-WA0028.jpg" class="d-block w-100 carousel-image" alt="Slide 4">
+              <div class="carousel-caption d-md-block">
+                  <h5>Slide 4 Title</h5>
+                  <h1 style="color: rgb(221, 245, 6); font-size: 50px;">Partner with EloAgro</h1>
+                  <p style="color: rgb(14, 105, 5); font-size: 30px;">We are committed to your growth and success in the agricultural industry.</p>
+                  <a href="./start.html"><button type="button" class="jam btn btn-primary">Get Started</button></a> 
+                </div>
               
-              </p>
           </div>
-          <div class="carousel-item">
-            <h1 style="color: green; font-size: 50px;">Elohagro Agrochemicals </h1>
-            <p style="color: rgb(15, 14, 14); font-size: 30px;"> 
-    
-              Enhance your crop yields and protect your farmlands with Elohagro Agrochemicals. <br>Our extensive range of high-quality products,<br> combined with expert agronomist consultancy and 24/7 online assistance.</p></em>
-          </div>
-          <div class="carousel-item">
-            <h1 style="color: green; font-size: 50px;">Elohagro Marketplace </h1>
-            <p style="color: rgb(92, 65, 6); font-size: 30px;"> 
-    
-             <em> Discover a world of agricultural possibilities with Elohagro Marketplace - <br>the premier platform for buying and selling agro-inputs and products.</p>
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
-          <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
-          <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
-          <span class="sr-only">Next</span>
-        </a>
+          
       </div>
+
       
+
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+      </a>
+  </div>
       
     
-    <br><br><br>
-     <a href="./start.html"><button type="button" class="jam btn btn-primary">Get Started</button></a> 
+    
+   
     
     
     </div>
@@ -311,36 +263,36 @@
           </div>
        </div>
     </div>
-    <div class="container-fluid">
+    <div class="container">
        <div class="row">
           <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 padding_left0">
              <div class="product_box">
-                <figure><img src="./images/farmrice.jpg" alt="#"/></figure>
-                <h3 class="black">Rice Farm</h3>
+                <figure><img src="./images/tomafarm.jpg" alt="#"/></figure>
+                <h3 class="black">Fresh Tomato</h3>
              </div>
           </div>
           <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
              <div class="product_box">
-                <figure><img src="./images/farm1.jpg" alt="#"/></figure>
-                <h3 >weat</h3>
+                <figure><img src="./images/seed1.jpg" alt="#"/></figure>
+                <h3 >Seeds</h3>
              </div>
           </div>
           <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 padding_right0">
              <div class="product_box">
-                <figure><img src="./images/chem4.jpg" alt="#"/></figure>
-                <h3>fruit</h3>
+                <figure><img src="./images/farmchem.jpg" alt="#"/></figure>
+                <h3>agro-chem</h3>
              </div>
           </div>
           <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 padding_left0">
              <div class="product_box">
-                <figure><img src="./images/seed2.jpg" alt="#"/></figure>
-                <h3>sunflowere</h3>
+                <figure><img src="./images/product_img2.jpg" alt="#"/></figure>
+                <h3>Rice Farm</h3>
              </div>
           </div>
           <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 padding_right0">
              <div class="product_box">
-                <figure><img src="./images/chem8.jpg" alt="#"/></figure>
-                <h3>Livestock</h3>
+                <figure><img src="./images/farm3.jpg" alt="#"/></figure>
+                <h3>Cassava Farm</h3>
              </div>
           </div>
        </div>
@@ -350,8 +302,69 @@
 
 
 <!-- </div> -->
-<!-- 
-contract harvesters begins here -->
+
+
+<div class="container" >
+  
+  <section id="works" class="works"style="background-color: transparent;" >
+    <div class="container">
+        <div class="section-header">
+            <h2>how it works</h2>
+            <p>Learn More about how our website works.</p>
+        </div><!--/.section-header-->
+        <div class="works-content">
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="single-how-works">
+                        <div class="single-how-works-icon">
+                          <i><img src="images/3.png" alt="#"/></i>
+                        </div>
+                        <h2><a href="#">flexible <span> payment</span>structure</a></h2>
+                        <p>
+                          Buyers provide an upfront payment at the start of the season, with the remaining balance due after the harvest is completed.
+                        </p>
+                        <button class="welcome-hero-btn how-work-btn" onclick="window.location.href='#'">
+                            read more
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="single-how-works">
+                        <div class="single-how-works-icon">
+                          <i><img src="images/3.png" alt="#"/></i>
+                        </div>
+                        <h2><a href="#">Agro<span>input </span></a></h2>
+                        <p>
+                          Our platform offers a seamless way to purchase agroinputs, featuring a user-friendly interface for easy selection and ordering.
+                        </p>
+                        <button class="welcome-hero-btn how-work-btn" onclick="window.location.href='#'">
+                            read more
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="single-how-works">
+                        <div class="single-how-works-icon">
+                          <i><img src="images/3.png" alt="#"/></i>
+                        </div>
+                        <h2><a href="#">farm <span> produce</span> </a></h2>
+                        <p>
+                          Our platform simplifies the sale of farm produce by connecting farmers directly with buyers. . 
+                        </p>
+                        <button class="welcome-hero-btn how-work-btn" onclick="window.location.href='#'">
+                            read more
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+
+</section><!--/.works-->
+<!--works end -->
+
+
+
 
 
   <div class="choose ">
@@ -420,172 +433,71 @@ contract harvesters begins here -->
   
   </div>
 
-  
-  
-  <!-- farm products and seeds -->
-<!-- 
-  <div class="video-background" >
-    <video autoplay muted loop>
-      <source src="./video/greenbg5_animation.mp4" type="video/mp4">
-    </video> -->
 
 
 
 
-<div class="container" >
-  
-
-<h4 style="margin: auto; text-align: center; color: #111111; height: 30vh; font-family: Arial, Helvetica, sans-serif; font-size: 40px;"><br>FARM PRODUCTS AND SEEDS</h4>
-
-<div class="row">
-<div class="col-sm-3">
-  <img src="./images/product_img1.jpg" alt="" class="img-fluid" style="border: 10px green solid; border-right: 20px; border-radius: 50px;border-bottom: 0; height: 50vh;">
-</div>
-
-
-<div class="col-sm-3"><br><br>
-  <img src="./images/offer2.png" alt="" class="img-fluid"style="border: 10px green solid; border-right: 20px; border-radius: 50px;border-bottom: 0; height: 50vh; " >
-</div>
-
-
-<div class="col-sm-3"><br><br><br><br>
-  <img src="./images/seed2.jpg"class="img-fluid"   alt="" style="border: 10px green solid; border-right: 20px; border-radius: 50px; border-bottom: 0; height: 50vh;" >
-</div>
-
-
-<div class="col-sm-3"><br><br><br><br><br><br>
-  <img src="./images/./seed1.jpg" alt="" class="img-fluid" style="border: 10px green solid; border-left: 20px; border-radius: 50px; border-bottom: 0; height: 50vh;">
-</div>
-
-
-</div>
-</div>
-</div>
-
-
-
-
-
-
-<!-- 
-
-<div class="video-background">
-  <video autoplay muted loop>
-    <source src="./video/greenbg5_animation.mp4" type="video/mp4">
-  </video> -->
-  
-
-<div class="container boss"  >
-<h4 style="margin: 0%; text-align: center;">PROFESSIONAL AGRONOMST</h4>
-<br><br><br><br><br>
-
-  <div class="row mt-3  ">
-    <div class="col-sm-4 trans">
-<div class="card my-5 mt-n5 border-success"  >
-
-    <div class="container  shadow" style="width: 90%; background-image: url(./images/2060.jpg); margin-left: 19px; margin-top: -20px; border-radius: 10px;">
-      <div class="container mt-5 text-white text-center">
-
-        <img src="./images/prof1.jpg" alt="">
+ <section class="team_section layout_padding" style="background-color:transparent;" >
+    <div class="container">
+      <div class="heading_container heading_center">
+        <h2 style="color: black;">
+        Professional Agronomist
+        </h2>
+       
       </div>
-
-
-    </div>
-    
-    <div class="card-body mt-5 text-center">
-     <p>Dr. Maria Rodriguez, CPAg ( 10 years of experience) A renowned expert in soil science, Dr. Rodriguez has helped numerous farmers optimize their crop yields through her innovative agronomic practices. Her extensive knowledge in precision agriculture has earned her a reputation as a leading authority in the field.</p>
-      
-    </div>
-  </div>
-  
-</div>
-
-
-<div class="col-sm-4 trans">
-<div class="card my-5 mt-n5 border-success " >
-
-    <div class="container bg-success shadow" style="width: 90%; margin-left: 19px; background-image: url(./images/2060.jpg); margin-top: -20px; border-radius: 10px;">
-      <div class="container mt-5 text-white text-center">
-
-        <img src="./images/prof3.jpg" alt="">
+      <div class="row">
+        <div class="col-md-4 col-sm-6 mx-auto">
+          <div class="box">
+            <div class="img-box">
+              <img src="./images/img/IMG-20240821-WA0034.jpg" alt="">
+            </div>
+            <div class="detail-box">
+              <h5>
+                Dr. Maria Rodriguez, CPAg ( 10 years of experience) A renowned expert in soil science, Dr. Rodriguez has helped numerous farmers optimize their crop yields through her innovative agronomic practices.
+              </h5>
+              <h6 class="">
+                supervisor
+              </h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 mx-auto">
+          <div class="box">
+            <div class="img-box">
+              <img src="./images/img/IMG-20240821-WA0036.jpg" alt="">
+            </div>
+            <div class="detail-box">
+              <h5>
+                Dr. Sophia Patel, CPAg (Female, 8 years of experience) With a specialization in crop protection, Dr. Patel has developed cutting-edge solutions to combat pests and diseases, ensuring maximum crop productivity for her clients.
+              </h5>
+              <h6 class="">
+                supervisor
+              </h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 mx-auto">
+          <div class="box">
+            <div class="img-box">
+              <img src="./images/img/IMG-20240821-WA0035.jpg" alt="">
+            </div>
+            <div class="detail-box">
+              <h5>
+                Dr. John Taylor, CPAg ( 12 years of experience) A seasoned agronomist with a focus on irrigation management, Dr. Taylor has worked with farmers across the globe to implement efficient water usage practices.
+              </h5>
+              <h6 class="">
+                supervisor
+              </h6>
+            </div>
+          </div>
+        </div>
       </div>
-
-
     </div>
-    
-    <div class="card-body mt-5 text-center" >
-<p>Dr. Sophia Patel, CPAg (Female, 8 years of experience) With a specialization in crop protection, Dr. Patel has developed cutting-edge solutions to combat pests and diseases, ensuring maximum crop productivity for her clients. Her dedication to sustainable agriculture has made her a sought-after consultant in the industry.
+  </section>
 
-</p>
-    </div>
-  </div>
-  
-</div>
+  <!-- end team section -->
+<!-- my queen you have tried -->
 
-
-
-<div class="col-sm-4 trans">
-<div class="card my-5 mt-n5 border-success "  >
-
-    <div class="container bg-success shadow" style="width: 90%; margin-left: 19px;background-image: url(./images/2060.jpg);  margin-top: -20px; border-radius: 10px;">
-      <div class="container mt-5 text-white text-center">
-
-        <img src="./images/prof4.jpg" alt="">
-
-      </div>
-
-
-    </div>
-    
-    <div class="card-body mt-5 text-center">
-<P>Dr. John Taylor, CPAg ( 12 years of experience) A seasoned agronomist with a focus on irrigation management, Dr. Taylor has worked with farmers across the globe to implement efficient water usage practices. His expertise in agricultural water management has resulted in significant reductions in water waste and increased crop yields for his clients.
-
-</P>
-    </div>
-  </div>
-</div>
-</div>
-</div>
-</div>
-
-
-<!-- agro-chemical inputs begins here -->
-
-
-
-<!-- <div class="video-background">
-  <video autoplay muted loop>
-    <source src="./video/greenbg5_animation.mp4" type="video/mp4">
-  </video> -->
-
-
-  <div class="container">
-<br>
-
-  <h4 style="margin: auto; text-align: center; color: rgb(20, 20, 20); font-family: Arial, Helvetica, sans-serif; font-size: 40px;"><br><br>AGRO CHEMICALS</h4>
-<br><br><br>
-  <div class="row">
-  
-  <div class="col-sm-4">
-    <img src="./images/chem3.jpg" alt="" class="img-fluid" style="border: 10px green solid; border-right: 20px; border-radius: 50px;border-bottom: 0; ">
-  </div>
-  
-  
-  
-  <div class="col-sm-4">
-    <img src="./images/chem.jpg"class="img-fluid"   alt="" style="border: 10px green solid; border-top: 20px; border-radius: 50px; border-bottom: 0;" >
-  </div>
-  
-  
-  <div class="col-sm-4">
-    <img src="./images/chem6.jpg" alt="" class="img-fluid" style="border: 10px green solid; border-left: 20px; border-radius: 50px; border-bottom: 0;">
-  </div>
-  
-  </div>
-  </div>
-  </div>
-  
-  
 
 
   <!-- hottest -->
@@ -620,6 +532,9 @@ contract harvesters begins here -->
 
     <footer class="footer" style=" background-color: black; color: #eee8e8; ">
         <!-- Container to center the content -->
+<br><br><br>
+
+
         <div class="container" style="height: 90vh;">
             <div class="row" >
                 <!-- Column for About us section -->
@@ -674,13 +589,6 @@ contract harvesters begins here -->
 
   </footer>
 
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoJtKh7z7lGz7fuP4F8nfdFvAOA6Gg/z6Y5J6XqqyGXYM2ntX5" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-
-
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
