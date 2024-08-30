@@ -441,15 +441,47 @@ main section h2 {
   font-weight: 500;
 }
 
-/* Footer */
-.footer-links li, .social-links li {
-  margin-bottom: 20px;
-  padding-left: 40px;
+
+.footer-links {
+  margin-bottom: 20px; /* add some space between the links and the next section */
+}
+
+.footer-links li {
+  margin-bottom: 20px; /* add some space between each link */
+  padding-left: 40px; /* add some padding to the left of each link */
+
+}
+
+.social-links {
+  margin-bottom: 20px; /* add some space between the social links and the next section */
+}
+
+.social-links li {
+  margin-bottom: 10px; /* add some space between each social link */
+  padding-left: 20px; /* add some padding to the left of each social link */
 }
 
 .social-links i {
-  font-size: 24px;
-  margin-right: 10px;
+  font-size: 24px; /* increase the font size of the social media icons */
+  margin-right: 10px; /* add some space between the icon and the link text */
+}
+
+.footer ul li {
+
+padding: 30px;
+
+
+}
+
+
+
+
+@media (max-width:600px) {
+
+.footer{
+
+height: 250vh;
+
 }
 
 /* Responsive design */
