@@ -6,6 +6,34 @@ body {
     background-repeat: no-repeat;
   }
   
+/* Header styles */
+.site-header {
+  
+  padding: 20px;
+  text-align: center;
+} 
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header nav li  {
+  margin-right: 20px;
+  
+}
+
+
+
   .product-listing {
     margin-top: 20px;
   }
