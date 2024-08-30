@@ -10,6 +10,33 @@
   
 <link rel="stylesheet" href="src/profe.css">
     <style>
+
+/* Header styles */
+.site-header {
+  
+  padding: 20px;
+  text-align: center;
+} 
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header nav li  {
+  margin-right: 20px;
+  
+}
+
       /* Add some custom styles here */
       body {
         font-family: Arial, sans-serif;
@@ -37,11 +64,36 @@
     </style>
   </head>
   <body>
-    <div class="header">
+    <nav class="navbar navbar-expand-lg navbar-light bg-success">
       <div class="container">
-        <h1> <a href="./index.html" style="color: aliceblue;">ELOHAGRO</a> - Agronomist Services</h1>
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="./market.html" style="color: white;"> Product Listings</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="./prod.html" style="color: white;"> Farmers Market</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="./profe.html" style="color: white;">Agronomist Services</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="./farm.html" style="color: white;">Land Sales</a>
+            </li>
+            <li class="nav-item  ">
+              <a class="nav-link" href="./harv.html" style="color: white;">Contract Harvesting</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
+    </nav>
 <div class="container-fluid">
     <div class="firstmain">
         <div class="slie">
