@@ -8,6 +8,34 @@
 
 <style>
 
+.site-header {
+  
+  padding: 20px;
+  text-align: center;
+} 
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header nav li  {
+  margin-right: 20px;
+  
+}
+
+
+
+
 .footer-links {
         margin-bottom: 20px; /* add some space between the links and the next section */
       }
@@ -58,14 +86,42 @@
 
 
   </head>
+  <nav class="navbar navbar-expand-lg navbar-light bg-success">
+    <div class="container">
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="./market.html" style="color: white;"> Product Listings</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="./prod.html" style="color: white;"> Farmers Market</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="./profe.html" style="color: white;">Agronomist Services</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="./farm.html" style="color: white;">Land Sales</a>
+          </li>
+          <li class="nav-item  ">
+            <a class="nav-link" href="./harv.html" style="color: white;">Contract Harvesting</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  </div>
+
+
 <body>
     <div class="container-fluid" style="background-image: url(./images/bgg1.jpg);background-size: cover; background-repeat: no-repeat;">
-        <div class="hero">
-         <a href="./index.html" style="color: black; text-decoration: underline;"> <h4>HOME</h4></a><br><br>
-          <h1>Welcome to ElohAgro Marketplace</h1>
-          <p style="font-size: 20px; ">Connecting farmers, agro-input suppliers, agronomists, and landowners in a seamless ecosystem.</p>
-       
-        </div><br><br>
+       <br><br>
       
         <div class="featured-products">
           <h2>Featured Products</h2>
