@@ -110,7 +110,7 @@ main section h2 {
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  height: 100vh;
+  height: 120vh;
 }
 
 .firstmain .btn {
@@ -253,9 +253,7 @@ main section h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  /* -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column; */
+  
           flex-direction: column;
   background-color: rgb(21, 39, 3);
   border-radius: 10px;
@@ -357,10 +355,7 @@ main section h2 {
   border-radius: 3px;
   box-shadow: 0 0px 5px rgba(71,71,71,.2);
   margin-bottom: 30px;
-  /* -webkit-transition: .3s linear; 
-  -moz-transition:.3s linear; 
-  -ms-transition:.3s linear; 
-  -o-transition:.3s linear; */
+  
   transition: .3s linear;
 }
 
@@ -415,6 +410,92 @@ main section h2 {
   object-fit: cover;
   z-index: -1;
 }
+
+
+.contact_section {
+  position: relative;
+  background-color: #f9f9f9;
+}
+
+.contact_section .heading_container {
+  margin-bottom: 45px;
+}
+
+.contact_section .row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact_section .form_container {
+  padding: 45px;
+}
+
+.contact_section .form_container .form-control {
+  width: 100%;
+  border: none;
+  height: 50px;
+  margin-bottom: 15px;
+  padding-left: 15px;
+  outline: none;
+  color: #101010;
+  border-radius: 0;
+  -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.05);
+}
+
+.contact_section .form_container .form-control::-webkit-input-placeholder {
+  color: #565554;
+}
+
+.contact_section .form_container .form-control:-ms-input-placeholder {
+  color: #565554;
+}
+
+.contact_section .form_container .form-control::-ms-input-placeholder {
+  color: #565554;
+}
+
+.contact_section .form_container .form-control::placeholder {
+  color: #565554;
+}
+
+.contact_section .form_container .form-control.message-box {
+  height: 95px;
+}
+
+.contact_section .form_container .btn_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact_section .form_container .btn_box button {
+  border: none;
+  display: inline-block;
+  padding: 12px 55px;
+  background-color: #2c7873;
+  color: #ffffff;
+  border-radius: 0px;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  border: 1px solid #2c7873;
+  width: 100%;
+}
+
+.contact_section .form_container .btn_box button:hover {
+  background-color: transparent;
+  color: #2c7873;
+}
+
+.contact_section .img-box {
+  overflow: hidden;
+}
+
+.contact_section .img-box img {
+  min-width: 100%;
+}
+
 
 /* Hottest Section */
 .hottest {
