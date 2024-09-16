@@ -286,21 +286,6 @@ main section h2 {
   margin-top: 45px;
 }
 
-/* .team_section .btn-box a {
-  display: inline-block;
-  padding: 10px 45px;
-  background-color: #2c7873;
-  color: #ffffff;
-  border-radius: 5px;
-  -webkit-transition: all .3s;
-  transition: all .3s;
-  border: 1px solid #2c7873;
-}
-
-.team_section .btn-box a:hover {
-  background-color: transparent;
-  color: #2c7873;
-} */
 
 
 
@@ -510,7 +495,7 @@ main section h2 {
 
 .hottest .hottest_box {
   position: relative;
-  background-color: #10e73f;
+  background-color: rgb(21, 39, 3);
   padding: 60px 40px;
   max-width: 1200px;
   margin: 0 auto;
