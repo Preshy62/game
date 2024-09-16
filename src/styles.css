@@ -296,7 +296,7 @@ main section h2 {
 
 /* Choose Section */
 .choose {
-  background-color: rgb(21, 39, 3);
+  background-color:#02442b;
   padding: 90px 20px;
   text-align: center;
 }
@@ -321,7 +321,7 @@ main section h2 {
 }
 
 .choose_box i img {
-  background-color: #02442b;
+  background-color:rgb(21, 39, 3);
   width: 140px;
   padding: 10px;
   border-radius: 60px;
