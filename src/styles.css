@@ -1,6 +1,6 @@
 /* Global variables */
 :root {
-  --primary-color: #228b22;
+  --primary-color: #02442b;
   --secondary-color: #eee8e8;
   --font-family: Arial, Helvetica, sans-serif;
   --font-size: 16px;
@@ -63,7 +63,7 @@ main section h2 {
   align-items: center;
   height: 100px;
   padding: 0 20px;
-  background-color: #13b60d;
+  background-color: #02442b;
 }
 
 .elohagro-logo img {
@@ -321,7 +321,7 @@ main section h2 {
 }
 
 .choose_box i img {
-  background-color: #08bd35;
+  background-color: #02442b;
   width: 140px;
   padding: 10px;
   border-radius: 60px;
